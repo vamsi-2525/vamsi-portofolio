@@ -1,0 +1,58 @@
+import { Certificate } from '@/types';
+
+export const certificates: Certificate[] = [
+  {
+    id: '1',
+    title: 'AWS Certified Solutions Architect – Associate',
+    issuer: 'Amazon Web Services',
+    date: '2024-03',
+    credentialUrl: 'https://aws.amazon.com/certification/',
+    badgeImage: '/images/certificates/aws-saa.png',
+    category: 'Cloud',
+  },
+  {
+    id: '2',
+    title: 'Google Professional Data Engineer',
+    issuer: 'Google Cloud',
+    date: '2024-01',
+    credentialUrl: 'https://cloud.google.com/certification/data-engineer',
+    badgeImage: '/images/certificates/gcp-pde.png',
+    category: 'Cloud',
+  },
+  {
+    id: '3',
+    title: 'Meta React Developer Certificate',
+    issuer: 'Meta (Coursera)',
+    date: '2023-08',
+    credentialUrl: 'https://coursera.org',
+    badgeImage: '/images/certificates/meta-react.png',
+    category: 'Frontend',
+  },
+  {
+    id: '4',
+    title: 'OpenAI Prompt Engineering for Developers',
+    issuer: 'DeepLearning.AI',
+    date: '2023-11',
+    credentialUrl: 'https://learn.deeplearning.ai/',
+    badgeImage: '/images/certificates/openai-pe.png',
+    category: 'AI',
+  },
+  {
+    id: '5',
+    title: 'LangChain for LLM Application Development',
+    issuer: 'DeepLearning.AI',
+    date: '2024-02',
+    credentialUrl: 'https://learn.deeplearning.ai/',
+    badgeImage: '/images/certificates/langchain.png',
+    category: 'AI',
+  },
+  {
+    id: '6',
+    title: 'Docker & Kubernetes: The Practical Guide',
+    issuer: 'Udemy',
+    date: '2023-06',
+    credentialUrl: 'https://udemy.com',
+    badgeImage: '/images/certificates/docker-k8s.png',
+    category: 'DevOps',
+  },
+];
